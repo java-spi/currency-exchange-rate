@@ -1,7 +1,7 @@
 //: com.yulikexuan.java.spi.currency.rate.util.ExchangeRate
 
 
-package spi.currency.rate.service;
+package spi.currency.rate.service.api;
 
 
 import com.google.common.collect.Lists;

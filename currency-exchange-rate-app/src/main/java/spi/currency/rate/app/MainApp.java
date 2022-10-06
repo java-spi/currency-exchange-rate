@@ -1,7 +1,7 @@
-//: spi.currency.rate.MainApp
+//: spi.currency.rate.app.MainApp
 
 
-package spi.currency.rate;
+package spi.currency.rate.app;
 
 
 import lombok.NonNull;
@@ -10,10 +10,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import spi.currency.rate.domain.model.Quote;
-import spi.currency.rate.service.ExchangeRateProvider;
-import spi.currency.rate.service.ExchangeRateProviders;
+import spi.currency.rate.service.api.ExchangeRateProvider;
+import spi.currency.rate.service.api.ExchangeRateProviders;
 
-import java.time.LocalDate;
 import java.util.List;
 
 

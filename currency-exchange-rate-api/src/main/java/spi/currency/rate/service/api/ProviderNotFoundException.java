@@ -1,7 +1,7 @@
-//: spi.currency.rate.service.ProviderNotFoundException
+//: spi.currency.rate.service.api.ProviderNotFoundException
 
 
-package spi.currency.rate.service;
+package spi.currency.rate.service.api;
 
 
 public class ProviderNotFoundException extends RuntimeException {

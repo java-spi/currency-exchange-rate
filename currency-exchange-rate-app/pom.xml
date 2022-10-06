@@ -64,7 +64,7 @@
                         <configuration>
                             <classifier>spring-boot</classifier>
                             <mainClass>
-                                spi.currency.rate.MainApp
+                                spi.currency.rate.app.MainApp
                             </mainClass>
                         </configuration>
                     </execution>

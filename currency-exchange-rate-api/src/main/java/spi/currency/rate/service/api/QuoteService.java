@@ -1,4 +1,4 @@
-package spi.currency.rate.service;
+package spi.currency.rate.service.api;
 
 
 import spi.currency.rate.domain.model.Quote;

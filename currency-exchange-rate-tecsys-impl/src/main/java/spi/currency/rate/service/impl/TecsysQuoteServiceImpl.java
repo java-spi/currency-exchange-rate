@@ -1,11 +1,12 @@
-//: spi.currency.rate.service.TecsysQuoteServiceImpl
+//: spi.currency.rate.service.impl.TecsysQuoteServiceImpl
 
 
-package spi.currency.rate.service;
+package spi.currency.rate.service.impl;
 
 
 import lombok.AllArgsConstructor;
 import spi.currency.rate.domain.model.Quote;
+import spi.currency.rate.service.api.QuoteService;
 
 import java.util.List;
 
