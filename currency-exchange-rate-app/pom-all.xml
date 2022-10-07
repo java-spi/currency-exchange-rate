@@ -13,7 +13,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>currency-exchange-rate-app</artifactId>
+    <artifactId>currency-exchange-rate-ny-app</artifactId>
     <packaging>jar</packaging>
 
     <properties>
@@ -25,6 +25,18 @@
         <dependency>
             <groupId>com.yulikexuan.java.spi</groupId>
             <artifactId>currency-exchange-rate-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yulikexuan.java.spi</groupId>
+            <artifactId>currency-exchange-rate-ny-impl</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.yulikexuan.java.spi</groupId>
+            <artifactId>currency-exchange-rate-quebec-impl</artifactId>
+            <scope>runtime</scope>
         </dependency>
 
         <dependency>
@@ -43,7 +55,7 @@
 
     <build>
 
-        <finalName>${final.app.name}</finalName>
+        <finalName>${final.app.name}-all</finalName>
 
         <plugins>
 
