@@ -1,4 +1,4 @@
-//: spi.currency.rate.service.impl.TecsysFinanceExchangeRateProvider
+//: spi.currency.rate.service.impl.NYFinanceExchangeRateProvider
 
 
 package spi.currency.rate.service.impl;

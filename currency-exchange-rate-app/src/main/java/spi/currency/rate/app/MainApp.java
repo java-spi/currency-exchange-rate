@@ -37,6 +37,7 @@ public class MainApp implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         log.info(">>> Retrieving currency quotes from provider ... ");
+
         ExchangeRateProviders.providers().stream()
                 .flatMap(p -> quotes(p).stream())
                 .forEach(MainApp::printCurrencyRates);
