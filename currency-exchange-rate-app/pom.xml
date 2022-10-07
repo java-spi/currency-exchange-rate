@@ -30,7 +30,7 @@
 
         <dependency>
             <groupId>com.yulikexuan.java.spi</groupId>
-            <artifactId>currency-exchange-rate-tecsys-impl</artifactId>
+            <artifactId>currency-exchange-rate-ny-impl</artifactId>
         </dependency>
 
         <dependency>

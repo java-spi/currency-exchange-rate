@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @AllArgsConstructor(staticName = "of")
-public class TecsysQuoteServiceImpl implements QuoteService {
+public class NYQuoteServiceImpl implements QuoteService {
 
     @Override
     public List<Quote> getQuotes() {

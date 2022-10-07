@@ -64,7 +64,7 @@
 
             <dependency>
                 <groupId>com.yulikexuan.java.spi</groupId>
-                <artifactId>currency-exchange-rate-tecsys-impl</artifactId>
+                <artifactId>currency-exchange-rate-ny-impl</artifactId>
                 <version>2022.04-SNAPSHOT</version>
             </dependency>
 
@@ -175,7 +175,7 @@
     <modules>
         <module>currency-exchange-rate-api</module>
         <module>currency-exchange-rate-quebec-impl</module>
-        <module>currency-exchange-rate-tecsys-impl</module>
+        <module>currency-exchange-rate-ny-impl</module>
         <module>currency-exchange-rate-app</module>
     </modules>
 
